@@ -1,0 +1,31 @@
+Stage 2/5: Rocking OAuth.
+Description.
+So, in this stage, you must go to the Spotify Web site for developers and create your application.
+To create an application, you should select Dashboard tab on the site, log in to Spotify, and click the button Create an App.
+
+Add one more command to your program: an auth command that will print the auth link and allow us to use another command (no real authorization required, just print a workable link and make some Boolean field true). Don't forget to put your client id in this link.
+
+Make commands unavailable if user access for your program is not confirmed (if they did not call the auth command).
+
+Remember that you should add your redirect_uri in the settings of your application.
+
+Example
+Below is an output example of the described program. Try to output all cases like in the example.
+
+The greater-than symbol followed by a space (> ) represents the user input. Note that it's not part of the input.
+
+> new
+Please, provide access for application.
+> featured
+Please, provide access for application.
+> auth
+https://accounts.spotify.com/authorize?client_id=a19ee7dbfda443b2a8150c9101bfd645&redirect_uri=http://localhost:8080&response_type=code
+---SUCCESS---
+> new
+---NEW RELEASES---
+Mountains [Sia, Diplo, Labrinth]
+Runaway [Lil Peep]
+The Greatest Show [Panic! At The Disco]
+All Out Life [Slipknot]
+> exit
+---GOODBYE!---

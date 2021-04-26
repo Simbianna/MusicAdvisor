@@ -1,4 +1,5 @@
-Description
+Stage 1/5: Strings and fiddlesticks.
+Description.
 When developing your web applications, it can be useful to implement the ability to register users using third-party services (such as Twitter, Facebook, Google, etc.), as well as the ability to interact with these services (for example, use Twitter to publish a post, or getting a list of friends on Facebook). To implement this functionality, you need to learn how to work with the service's API. Most services use REST (Representational State Transfer) to provide the ability to interact with the service. To learn how to work with it from Java, we will develop a simple application that will offer us music using Spotify.
 
 First, in this stage, you have to implement simple functionality to read user input and provide information at the user's request.
